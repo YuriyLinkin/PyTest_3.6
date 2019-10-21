@@ -1,1 +1,1 @@
-# PyTest_3.6
+# PyTest_3.6_stepik
