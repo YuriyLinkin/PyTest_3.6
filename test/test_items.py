@@ -6,4 +6,5 @@ def test_should_see_add_basket_button(browser):
     browser.get(link)
     time.sleep(10)
     print("\nfinding AddToBasket button..")
-    assert True, browser.find_element_by_css_selector("button.btn.btn-lg.btn-primary.btn-add-to-basket")
+    assert True, browser.find_element_by_css_selector("button.btn.btn-lg.btn-primary.btn-add-to-basket") # "found button"
+    #assert len(browser.find_elements_by_css_selector("button.btn.btn-lg.btn-primary.btn-add-to-basket")) > 0, "not find button"
